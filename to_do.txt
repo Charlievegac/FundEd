@@ -1,0 +1,18 @@
+To do:
+-------------------
+1. Python -> Back-end
+  - Class: Student, Stock_type, Database
+2. Create html (simple/plain)
+3. API --> LOAN REPAYMENT PLANS 
+4. PROMPT USER TO BE ABLE TO DO THINGS: IN THE FORM OF (FORMS)
+ - LOOK AT PAYMENT PLANS 
+  - THEN ASK HOW MY FINANCIALS WOULD LOOK WITH EACH PAYMENT PLAN
+ - ACCOUNT
+ IMPORTANTTTTTTTTTTTT!
+ in index create login
+-------------------
+A. User will input their information/create an account
+  - we will then return the three options of payment plans and what they will look like (table wise)
+B. Take in the information and suggest stocks with yield/risk that is correlated to their debt
+c. Reading the students debt and time to finish payment, suggesting one particular payment plan
+D. Having the student modify the amount of debt they have paid off, update his 

@@ -1,0 +1,46 @@
+.title-container{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.form-container{
+  border: 2px solid black;
+  display: flex;
+  padding: 2em;
+}
+.form-input-container{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1em;
+}
+.form-question{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Create Account Button */
+.submit-input {
+  background-color: var(--color1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.submit-input:hover {
+  background-color: var(--color2);
+  color: white;
+}

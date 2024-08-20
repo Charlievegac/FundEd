@@ -1,0 +1,51 @@
+<!-- Create an account -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FundEd - Create Account</title>
+    <link rel="stylesheet" href="../static/style.css"> 
+    <link rel="stylesheet" href="../static/style_create_account.css">
+    <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <a class="nav-logo" href="/"><img src="../static/logo.png" alt="logo"></a>
+        <a class="nav-item" href="/#about"> About </a>
+        <a class="nav-item" href="/login"> Log In </a>
+        <a class="nav-item" href="/createAccount"> Create Account </a>
+      </div>
+      <div class="filler-container"></div>
+      <div class="title-container">
+        <h1>Tell Us More About the Status of Your College Finances</h1>
+      </div>
+      <div class="form-container">
+        <form method="post" action="/getCreateAccount">
+          <div class="form-input-container form-input-name-container">
+            <label class="form-question" for="name">Username:</label>
+            <input class="form-response" type="text" name="name"/>
+          </div>
+          <div class="form-input-container form-input-net-worth-container">
+            <label class="form-question" for="net_worth">Estimated Net Worth:</label>
+            <input class="form-response" type="text" name="net_worth"/>
+          </div>
+          <div class="form-input-container form-input-debt-container">
+            <label class="form-question" for="debt_amount">Estimated Amount of Debt:</label>
+            <input class="form-response" type="text" name="debt_amount"/>
+          </div>
+            <div class="form-input-container form-input-password-container">
+              <label class="form-question" for="password">Password:</label>
+              <input class="form-response" type="text" name="password"/>
+          </div>
+          <div class="form-input-container form-input-time-container">
+            <label for="time_to_payment">In how many months would you like to be debt-free? (120 to 360):</label>
+            <input type="range" id="time-to-payment" name="time_to_payment" min="0" max="360">
+          </div>
+          <input class="submit-input" type="submit" value="Create Account"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

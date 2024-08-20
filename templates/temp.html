@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+  <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Hello {{props.name}}, you have created an account with a net worth of ${{props.net_worth}}, and have an outstanding college debt of ${{props.debt_amount}} which you look to repay in {{props.time_to_payment}} months.
+        This is your password: {{props.password}}!
+        Your ID is: {{props.id}}
+      </p>
+      <div class="goToLogin">
+        <a href="login"><button>Continue to Log in, you'll need your ID</button></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!-- Create an account -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FundEd - Create Account</title>
+    <link rel="stylesheet" href="../static/style.css"> 
+    <link rel="stylesheet" href="../static/style_create_account.css">
+    <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <a class="nav-logo" href="/"><img src="../static/logo.png" alt="logo"></a>
+        <a class="nav-item" href="/#about"> About </a>
+        <a class="nav-item" href="/login"> Log In </a>
+        <a class="nav-item" href="/createAccount"> Create Account </a>
+      </div>
+      <div class="filler-container"></div>
+      <div class="title-container">
+        <h1>Login</h1>
+      </div>
+      <div class="form-container">
+        <form method="post" action="/checkLogin">
+          <div class="form-input-container form-input-id-container">
+            <label class="form-question" for="name">Id:</label>
+            <input class="form-response" type="text" name="id"/>
+          </div>
+          <div class="form-input-container form-input-password-container">
+            <label class="form-question" for="password">Password:</label>
+            <input class="form-response" type="text" name="password"/>
+          </div>
+          <input class="submit-input" type="submit" value="Log in"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

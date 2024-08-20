@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FundEd - Your Path to Financial Freedom</title>
+  <link href="../static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Page-->
+  <div class="container">
+    <div class="nav-container">
+      <a class="nav-logo" href="/"><img src="../static/logo.png" alt="logo"></a>
+      <a class="nav-item" href="/#about"> About </a>
+      <a class="nav-item" href="/login"> Log In </a>
+      <a class="nav-item" href="/createAccount"> Create Account </a>
+    </div>
+    <div class="filler-container"></div>
+    <div class="content-container welcome-container">
+      <img class="welcome-image" src="../static/logo.png" alt="welcome">
+      <img class="welcome-image" src="../static/logo.png" alt="welcome">
+      <img class="welcome-image" src="../static/logo.png" alt="welcome">
+      <img class="welcome-image" src="../static/logo.png" alt="welcome">
+      <img class="welcome-image" src="../static/logo.png" alt="welcome">
+
+      </div>
+    <div class="content-container" id="about">
+      <h2 class="content-title">
+        About Loan Plans
+      </h2>
+      <div class="content-list">
+        <div class="content-nav">
+          <button class="content-nav-item" onclick="changeClassService()"> Fixed Plans </button>
+          <button class="content-nav-item" onclick="changeClassMission()"> Income-Driven Repayment (IDR) Plans </button>
+        </div>
+        <div style="width: 100%;" class="content-item-container"">
+          <div class="content-item top-item" id="content-item-1">
+            <h3 class="content-item-title">
+              Fixed Income Plans
+            </h3>
+            <table>
+                <tr>
+                    <th>Plan Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Standard</td>
+                    <td>Payments are a fixed amount that ensures your loans are paid off within 10 years (within 10 to 30 years for Consolidation Loans).</td>
+                </tr>
+                <tr>
+                    <td>Graduated</td>
+                    <td>Payments are lower at first and then increase, usually every two years. Payment amounts are designed to ensure your loans are paid off within 10 years (within 10 to 30 years for Consolidation Loans).</td>
+                </tr>
+                <tr>
+                    <td>Extended</td>
+                    <td>Payments can be fixed or graduated and will ensure that your loans are paid off within 25 years.</td>
+                </tr>
+            </table>
+          </div>
+          <div class="content-item lower-item" id="content-item-2">
+            <h3 class="content-item-title">
+              Income-Driven Repayment (IDR) Plans
+            </h3>
+              <table>
+                  <tr>
+                      <th>Plan Name</th>
+                      <th>Description</th>
+                  </tr>
+                  <tr>
+                      <td>SAVE Plan</td>
+                      <td>10% of discretionary income.</td>
+                  </tr>
+                  <tr>
+                      <td>IBR Plan</td>
+                      <td>Either 10% or 15% of your discretionary income (depending on when you received your first loans) but never more than what you would pay under the 10-year Standard Repayment Plan.</td>
+                  </tr>
+                  <tr>
+                      <td>ICR Plan</td>
+                      <td>20% of your discretionary income, or the amount you would pay on a repayment plan with a fixed payment over 12 years, adjusted according to your income.</td>
+                  </tr>
+              </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="content-container content-calculate-compounding-interest">
+      <button class="calculate-button"> </button>
+    </div> -->
+  </div>
+  <script src="../static/script.js"></script>
+</body>
+</html>
